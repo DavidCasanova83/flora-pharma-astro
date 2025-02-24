@@ -85,7 +85,7 @@ h6 {
 
 /* Style pour le bouton avec accent coloré (classe .btn-accent) */
 .btn-accent {
-  @apply bg-accent text-white hover:bg-accent-secondary;
+  @apply bg-accent text-white hover:border-2 hover:border-accent hover:bg-accent-secondary hover:text-accent;
   /* bg-accent : Couleur d'arrière-plan principale du bouton */
   /* text-white : Texte en blanc pour un bon contraste */
   /* hover:bg-accent-secondary : Changement de couleur au survol pour accentuer l'interaction */
