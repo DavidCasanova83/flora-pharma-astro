@@ -654,16 +654,28 @@ video {
   margin-bottom: 42px;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[-30px\] {
+  margin-top: -30px;
+}
+
+.mb-\[32px\] {
+  margin-bottom: 32px;
 }
 
 .inline {
@@ -880,6 +892,10 @@ video {
   padding-right: 1rem;
 }
 
+.pt-\[-20px\] {
+  padding-top: -20px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -939,6 +955,11 @@ video {
 .text-accent-tertiary {
   --tw-text-opacity: 1;
   color: rgb(245 195 158 / var(--tw-text-opacity, 1));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 
 .text-secondary {
@@ -1376,12 +1397,12 @@ h6 {
     justify-content: normal;
   }
 
-  .lg\:justify-center {
-    justify-content: center;
+  .lg\:justify-end {
+    justify-content: flex-end;
   }
 
-  .lg\:justify-between {
-    justify-content: space-between;
+  .lg\:justify-center {
+    justify-content: center;
   }
 
   .lg\:gap-y-0 {
@@ -1437,6 +1458,10 @@ h6 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -1464,6 +1489,10 @@ h6 {
 
   .xl\:pt-\[70px\] {
     padding-top: 70px;
+  }
+
+  .xl\:pb-8 {
+    padding-bottom: 2rem;
   }
 
   .xl\:text-left {

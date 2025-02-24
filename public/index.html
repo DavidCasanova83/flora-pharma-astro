@@ -66,6 +66,7 @@
     </div>
   </header>
 
+  <!-- hero section -->
   <section class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
     <div class="container mx-auto h-full ">
       <div class="flex flex-col xl:flex-row items-center justify-between h-full">
@@ -79,10 +80,8 @@
           <p class="mb-[42px] md:max-w-xl text-left">Installée à Toulon, dans le Var, je mets à votre disposition mon
             expertise en
             tant qu'Architecte d'intérieur, Maître d'œuvre et Décoratrice, principalement sur le bassin toulonnais.
-            J'accompagne aussi bien les particuliers que les
-            professionnels.
-            <br>Je conçois avec vous des projets sur mesure, répondant à vos
-            attentes, de la conception 2D & 3D jusqu’à la réalisation, grâce à une prestation clé en main.
+            <br>
+            J'accompagne aussi bien les <strong>particuliers</strong> que les professionnels.
           </p>
           <button class="btn btn-lg btn-accent mx-auto xl:mx-0">Démarrer un projet</button>
         </div>
@@ -93,6 +92,7 @@
     </div>
   </section>
 
+  <!-- stats section -->
   <section class="stats section">
     <div class="container mx-auto">
       <div class="flex flex-col xl:flex-row gap-y-6 justify-between">
@@ -108,15 +108,15 @@
           <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">+53</div>
           <div>Senior Doctors</div>
         </div>
-        <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
-          <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2">+10</div>
+        <div class="stats__item flex-1 flex flex-col items-center xl:mb-2">
+          <div class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary">+10</div>
           <div>Years Expeericnes</div>
         </div>
-
       </div>
     </div>
   </section>
 
+  <!-- stats services -->
   <section class="services">
     <!-- bg description -->
     <div
@@ -134,12 +134,16 @@
       </div>
     </div>
     <div class="container mx-auto mt-8 xl:-mt-[144px]">
-      <div class="grid xl:grid-cols-4 gap-5 px-8 xl:px-0">
+      <div class="grid xl:grid-cols-3 gap-5 px-8 xl:px-0">
         <!-- bloque 1 -->
         <div
           class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
           <div class="mb-[15px]">
-            <img src="assets/icons/services/icon-1.svg" alt="">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M 39.6 16.7 C 40.7 16.7 41.7 17.1 42.5 17.9 C 43.3 18.7 43.7 19.7 43.7 20.8 V 34.9 C 45 36.1 45.8 37.7 45.8 39.6 C 45.8 43 43 45.8 39.6 45.8 C 36.1 45.8 33.3 43 33.3 39.6 C 33.3 37.7 34.1 36.1 35.4 34.9 V 20.8 C 35.4 18.5 37.3 16.7 39.6 16.7 Z M 39.6 18.8 C 38.4 18.8 37.5 19.7 37.5 20.8 V 22.9 H 41.7 V 20.8 C 41.7 19.7 40.7 18.8 39.6 18.8 Z M 10.4 41.7 V 25 H 4.2 L 25 6.3 L 34.2 14.5 C 33.2 15.3 32.5 16.3 32 17.3 C 31.5 18.4 31.2 19.6 31.2 20.8 V 33.3 C 29.9 35.1 29.2 37.2 29.2 39.6 L 29.4 41.7 H 10.4 Z"
+                fill="#a50b25" />
+            </svg>
           </div>
           <h3 class="h3 mb-[10px]">General Fractionners</h3>
           <p class="font-light leading-normal max-w-[300px]">
@@ -149,8 +153,8 @@
         <!-- bloque 2 -->
         <div
           class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
-          <div class="mb-[15px]">
-            <img src="assets/icons/services/icon-2.svg" alt="">
+          <div class="mb-[15px] text-red-600">
+            <img class="text-red-600" src="assets/icons/services/icon-2.svg" alt="">
           </div>
           <h3 class="h3 mb-[10px]">General Fractionners</h3>
           <p class="font-light leading-normal max-w-[300px]">
@@ -169,7 +173,7 @@
           </p>
         </div>
         <!-- bloque 4 -->
-        <div
+        <!-- <div
           class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
           <div class="mb-[15px]">
             <img src="assets/icons/services/icon-4.svg" alt="">
@@ -178,7 +182,7 @@
           <p class="font-light leading-normal max-w-[300px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.amet sajhs Consequuntur, maxime?
           </p>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
